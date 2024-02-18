@@ -11,7 +11,6 @@ export default function Header() {
         <nav>
           <div className="menu-btn">
             <i class="fa-solid fa-bars"></i>
-            {/* <i class="fa-solid fa-close"></i> */}
           </div>
           <ul>
             <li>

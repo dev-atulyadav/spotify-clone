@@ -71,7 +71,6 @@ nav ul li a:hover {
   padding: 6rem;
 }
 .welcome article {
-  /* height: 100%; */
   width: 100%;
   color: white;
   font-size: 2rem;
@@ -83,10 +82,8 @@ nav ul li a:hover {
 }
 .welcome article main {
   width: 100%;
-  /* padding: 2rem; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
   gap: 3rem;
 }
@@ -170,7 +167,6 @@ main small a {
   flex-direction: column;
   gap: 1.5rem;
   text-align: center;
-  /* background: #cb3232; */
 }
 .offer main div span {
   padding: 7rem;
@@ -307,7 +303,6 @@ main small a {
 }
 .card div:nth-child(2) {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   font-size: 1rem;
   gap: 1.5rem;
@@ -362,8 +357,6 @@ button:hover {
 }
 
 footer {
-  /* width: 100vw; */
-  /* height: 55rem; */
   background: #000;
   color: white;
   padding: 8rem 8rem;
@@ -390,14 +383,12 @@ footer .extra-links {
   position: relative;
   top: -4rem;
   height: 10rem;
-  /* padding: 0rem 7rem !important; */
 }
 .links ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  /* background: #000; */
 }
 .links ul li:first-child {
   color: #7c7c7c;
@@ -466,31 +457,25 @@ footer .extra-links {
 .details div:last-child span a:hover {
   color: #00b244;
 }
-::selection{
+::selection {
   background: #ffffff;
   color: rgb(0, 119, 255);
 }
 /* For Mobile Screen */
 @media screen and (min-width: 0px) and (max-width: 481px) {
-  /* nav ul{
-    font-size: 2rem !important;
-  }
-  .menu-btn{
-    font-size: 3rem !important;
-  } */
-  nav ul{
+  nav ul {
     display: none;
   }
   .menu-btn {
     display: block;
   }
-  .welcome article main div{
+  .welcome article main div {
     flex-direction: column;
   }
-  .welcome article main div a button{
+  .welcome article main div a button {
     width: 90vw;
   }
-  .premium-img{
+  .premium-img {
     padding: 15rem;
   }
   .extra-links {
@@ -526,13 +511,13 @@ footer .extra-links {
   .menu-btn {
     display: block;
   }
-  .welcome article main{
+  .welcome article main {
     align-items: center;
   }
-  .welcome article main div{
+  .welcome article main div {
     flex-direction: column;
   }
-  .welcome article main div a button{
+  .welcome article main div a button {
     width: 90vw;
   }
   .extra-links {
@@ -555,14 +540,6 @@ footer .extra-links {
   }
 }
 @media screen and (min-width: 0px) and (max-width: 992px) {
-  /* .menu-btn{
-    font-size: 3.5rem;
-    cursor: pointer;
-  }
-  .menu-btn i:last-of-type{
-    position: absolute;
-    z-index: 3;
-  } */
   nav ul {
     position: absolute;
     top: 0;
@@ -574,11 +551,9 @@ footer .extra-links {
     align-items: flex-start;
     padding: 3rem;
     font-size: 3.5rem;
-    /* fuction add karna hai */
     display: none;
   }
-  nav ul li:nth-child(4){
-    /* background: white; */
+  nav ul li:nth-child(4) {
     transform: rotate(90deg);
     font-weight: lighter;
     font-size: 2rem;
@@ -609,7 +584,7 @@ footer .extra-links {
     flex-direction: column;
     gap: 4rem;
   }
-  .welcome article main{
+  .welcome article main {
     align-items: center;
   }
   .premium-img {
@@ -624,17 +599,16 @@ footer .extra-links {
   .offer main div {
     flex-direction: row;
   }
-  .offer main .feature{
+  .offer main .feature {
     justify-content: left;
     flex-direction: row;
   }
-  .feature div{
+  .feature div {
     display: flex;
     flex-direction: column !important;
     align-items: flex-start;
     gap: 1.5rem;
     text-align: left;
-
   }
   .card-list {
     flex-direction: column;
